@@ -1,0 +1,24 @@
+.skeleton-loader {
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-header,
+.skeleton-row {
+  background-color: #e0e0e0; /* Light grey color for skeleton */
+  border-radius: 0;
+  height: 20px; /* Adjust height as needed */
+  margin: 4px 0; /* Space between rows */
+}
+
+/* Animate the skeleton effect */
+@keyframes pulse {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0; /* Slightly lighter color for pulsing effect */
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
